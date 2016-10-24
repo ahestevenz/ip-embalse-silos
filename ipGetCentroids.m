@@ -79,10 +79,10 @@ shading interp;
 %% Export images
 
 if (export_images)
-    if ~exist(['Export/',name], 'dir');mkdir('Export/',name);end
-    saveas(gcf,['Export/',name,'/Luminancia_perspectiva3D'],'epsc');    
+    if ~exist(['export/',name], 'dir');mkdir('export/',name);end
+    saveas(gcf,['export/',name,'/Luminancia_perspectiva3D'],'epsc');    
     h=view(0, 90);
-    saveas(gcf,['Export/',name,'/Luminancia_perspectiva2D'],'epsc');     
+    saveas(gcf,['export/',name,'/Luminancia_perspectiva2D'],'epsc');     
     h=view(-45, 30);
 end
 

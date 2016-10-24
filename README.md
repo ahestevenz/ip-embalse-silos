@@ -4,6 +4,6 @@ Scripts en Octave que realizan el procesamiento de imágenes obtenidas por un CM
 
 Las siguientes figuras muestran el resultado del las experiencias realizadas. El centellador era básicamente un conjunto de  10x10 cristales de 5mmx5mm cada uno. En este contexto el algoritmo realiza la segmentación de los cristales y luego obtiene el valor de actividad en cada uno de ellos, con el objetivo de identificar picos de alta energía (centroides).
 
-<img src="img/RAW_gamma_lineal.png" width="700">
+<p align="center"><img src="img/RAW_gamma_lineal.png" width="700"></p>
 
-<img src="img/RAW_gamma_lineal_perspectivaXY.png" width="500">
+<p align="center"><img src="img/RAW_gamma_lineal_perspectivaXY.png" width="500"></p>
